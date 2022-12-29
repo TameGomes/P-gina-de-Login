@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant+SC&family=Edu+TAS+Beginner&family=Playfair+Display&family=Sacramento&family=Source+Code+Pro:wght@600&family=Varela+Round&family=Zen+Dots&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background: rgb(87, 67, 90);
+    border-radius: 30px 70px;
+    color: aliceblue;
+    margin-left: 300px;
+}
+
+.content {
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.email-senha {
+    margin-left: 50px;
+}
+    
+.email {
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 250px;
+    height: 40px;
+    border-style: hidden;
+    margin-left: 10px;
+    font-family: 'Amatic SC', cursive;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.senha {
+    background-color: aliceblue;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 240px;
+    height: 40px;
+    border-style: hidden;
+    margin-left: 10px;
+    font-family: 'Amatic SC', cursive;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#img {
+    position: absolute;
+    top: 48%;
+    margin-left: 260px;
+    background: url('/images/view_show_icon_124811.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#img.hide {
+    position: absolute;
+    top: 48%;
+    margin-left: 260px;
+    background: url('/images/view_hide_icon_124813.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.imagem {
+    max-width: 350px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.entrar {
+    border-radius: 20px;
+    border-style: hidden;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    margin-left: 160px;
+}
+
+.entrar:hover {
+    background-color:  rgb(37, 20, 39);
+    color: aliceblue;
+}
+
+.alternativa {
+    margin-left: 200px;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 10px;
+}
+
+.cadastro {
+    border-radius: 20px;
+    border-style: hidden;
+    font-family: 'Amatic SC', cursive;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 160px;
+    background-color: rgb(37, 20, 39);
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.cadastro:hover {
+    background-color:  aliceblue;
+    color: rgb(37, 20, 39);
+}
